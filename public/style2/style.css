@@ -147,3 +147,21 @@ header div hgroup {
 .experience-date-separator {
     color: var(--red) !important;
 }
+
+@media only screen and (max-width:480px) {
+    .content {
+        display: block;
+    }
+    .header div {
+        flex-direction: column;
+    }
+    #contact .contacts {
+        position: static;
+    }
+    #contact .contacts dl dd {
+        background-color: white;
+    }
+    #contact h3 {
+        display: block;
+    }
+}
