@@ -1,0 +1,178 @@
+:root {
+    --red: #FF0000;
+    --light-red: #FF4B4B;
+    --light-gray: #CCCCCC;
+    --gray: #999999;
+    --white-space: 10vw;
+    --greenish: #108484;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 40px 60px;
+}
+
+header div hgroup h1 {
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--light-gray);
+}
+
+header figure {
+    position: absolute;
+    right: 60px;
+    transform: rotate(-15deg);
+    top: 40px;
+}
+
+.content #about {
+    margin-top: -30px;
+    font-size: 15px;
+    padding-top: 10px;
+    display: block;
+    color: var(--light-gray);
+    content: "dsffsdf";
+    width: 80%;
+    grid-area: about;
+}
+
+#competencies {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#competencies h3 {
+    grid-row: span 2;
+}
+
+.content div {
+    /* float: right;*/
+    width: 85%;
+    padding-left: 10px;
+    border-left: 1px solid var(--light-gray);
+}
+
+#experiences {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#experiences h3 {
+    grid-row: span 2;
+}
+
+#education {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#education h3 {
+    grid-row: span 2;
+}
+
+.content section {
+    margin-top: 40px;
+}
+
+.skills-primary,
+.skills-secondary {
+    display: grid;
+    grid-template-columns: repeat(3, 130px);
+}
+
+.skill {
+    background-color: var(--greenish);
+    padding: 3px;
+    margin: 5px 0;
+    color: white;
+}
+
+#hobbies {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+#hobbies ul {
+    border-left: 1px solid var(--light-gray);
+}
+
+#contact .contact-type,
+#contact h3 {
+    display: none;
+}
+
+.skill::after {
+    content: attr(data-skill);
+}
+
+.content h4 {
+    color: var(--greenish);
+}
+
+.content #about h3 {
+    display: none;
+}
+
+header div hgroup h2 {
+    display: none;
+}
+
+#contact div {
+    border: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#contact div dl {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-email a {
+    background: url(./images/email.png);
+}
+
+.contact-phone {
+    background: url(images/phone.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-github {
+    background: url(images/github.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-facebook {
+    background: url(images/facebook.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-email {
+    background: url(images/email.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.contact-skype {
+    display: none;
+}
+
+#contact a {
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    visibility: hidden;
+}
