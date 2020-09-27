@@ -175,6 +175,11 @@ header div hgroup h2 {
     visibility: hidden;
 }
 
+.experience-details {
+    font-size: 12px;
+    color: var(--gray);
+}
+
 @media only screen and (max-width: 480px) {
     figure {
         display: none;

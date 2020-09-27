@@ -143,6 +143,11 @@ header div hgroup h2 {
     background-repeat: no-repeat;
 }
 
+.experience-details {
+    font-size: 12px;
+    color: var(--gray);
+}
+
 .contact-github {
     background: url(images/github.png);
     background-position: center;
