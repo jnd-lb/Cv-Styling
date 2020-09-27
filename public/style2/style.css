@@ -152,8 +152,11 @@ header div hgroup {
     .content {
         display: block;
     }
-    .header div {
-        flex-direction: column;
+    header div {
+        display: inline-block;
+    }
+    header div figure {
+        margin-left: 0;
     }
     #contact .contacts {
         position: static;
