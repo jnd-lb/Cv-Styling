@@ -104,7 +104,47 @@ header div hgroup {
     padding: 2px;
     font-size: 14px;
     /*to fix*/
-    flex-grow: attr(data-skill);
+    width: calc(100% / attr(data-skill number));
+}
+
+*[data-skill="1"] span {
+    width: 10%;
+}
+
+*[data-skill="2"] span {
+    width: 20%;
+}
+
+*[data-skill="3"] span {
+    width: 30%;
+}
+
+*[data-skill="4"] span {
+    width: 40%;
+}
+
+*[data-skill="5"] span {
+    width: 50%;
+}
+
+*[data-skill="6"] span {
+    width: 60%;
+}
+
+*[data-skill="7"]>span {
+    width: 70%;
+}
+
+*[data-skill="8"]>span {
+    width: 80%;
+}
+
+*[data-skill="9"]>span {
+    width: 90%;
+}
+
+*[data-skill="10"]>span {
+    width: 100%;
 }
 
 .skills-primary:before {

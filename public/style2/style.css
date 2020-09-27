@@ -24,6 +24,46 @@ header div hgroup {
     align-self: flex-end;
 }
 
+*[data-skill="1"] span {
+    width: 10%;
+}
+
+*[data-skill="2"] span {
+    width: 20%;
+}
+
+*[data-skill="3"] span {
+    width: 30%;
+}
+
+*[data-skill="4"] span {
+    width: 40%;
+}
+
+*[data-skill="5"] span {
+    width: 50%;
+}
+
+*[data-skill="6"] span {
+    width: 60%;
+}
+
+*[data-skill="7"]>span {
+    width: 70%;
+}
+
+*[data-skill="8"]>span {
+    width: 80%;
+}
+
+*[data-skill="9"]>span {
+    width: 90%;
+}
+
+*[data-skill="10"]>span {
+    width: 100%;
+}
+
 #contact .contacts {
     width: 50vw;
     display: flex;
