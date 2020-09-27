@@ -39,6 +39,10 @@ header div hgroup {
     columns: auto;
 }
 
+.skills-secondary div span {
+    background-color: var(--light-red) !important;
+}
+
 #contact .contacts dl dt {
     background-color: var(--red);
     color: white;

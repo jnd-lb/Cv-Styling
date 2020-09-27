@@ -107,6 +107,10 @@ header div hgroup {
     content: "Main";
 }
 
+.skills-secondary div span {
+    background-color: var(--light-red) !important;
+}
+
 .skills-secondary:before {
     content: "Other";
 }
